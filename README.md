@@ -27,3 +27,9 @@ There are two reasons for us not using the original PancakeSwap masterchef:
 We added quite a lot of comments to our masterchef to make it easier to compare our version to the two templates.
 
 Please note that the hash code in the pairFor function of the router contract needs to be adjusted to the blockchain that the contract is deployed to in order to match the output of the factory contract for INIT_CODE_PAIR_HASH.
+
+
+# Socials
+
+https://t.me/PunkSwapDEX
+https://twitter.com/PunkSwapDEX
