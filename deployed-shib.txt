@@ -1,0 +1,29 @@
+WBONE 0xC76F4c819D820369Fb2d7C1531aB3Bb18e6fE8d8
+
+Factory 0x5640113EA7F369E6DAFbe54cBb1406E5BF153E90
+- _feeToSetter
+  0x5bec0e2D83337614f49b730934C4f32E7f1d6591
+
+INIT CODE PAIR HASH
+0xde0be195ffcf9d98e98ba1aa415e4e6746b6cc3a1f593373eb5d7f1b133573bd
+
+Router 0x561Ef19238646Bbeb5f374E402892BfE5Ead1567
+
+PUNK 0x1Bf3f5b633800E6047dEb14cF14C4b49118a3570
+
+multicall 0xdA5962f85AA73966d21Df8AF9e76A5Bbed15e3d3
+
+rewardReceiver (contract is in masterchef_flattened file) 
+0xCC9aEad7261D320E5Ad937f523E3C0ddc7a16078
+
+masterchef 0x336726832bbE10FBED4C80Bc201F728B1404B073
+- PunkToken
+  0x1Bf3f5b633800E6047dEb14cF14C4b49118a3570
+- RewardReceiver
+  0xCC9aEad7261D320E5Ad937f523E3C0ddc7a16078
+- devaddr (receives PUNK dev rewards)
+  0x5bec0e2D83337614f49b730934C4f32E7f1d6591
+- tokenPerBlock
+  6300000000000000000 (=14*(0.15+0.3)*10**18 for farms and pools - devReward and burn come on top to make 14 per block in total)
+- startBlock (start of token minting)
+  578400
