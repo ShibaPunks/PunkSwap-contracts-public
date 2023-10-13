@@ -3,12 +3,13 @@
 This repository contains all contracts that the PunkSwap DEX uses.
 
 PunkSwap operates on
-Shibarium https://app.punkswap.exchange/swap/
+Scroll https://zkscroll.punkswap.exchange/swap/
+Shibarium https://app.punkswap.exchange/
 opBNB https://opbnb.punkswap.exchange/
 
 All contracts are open source, verified on the block explorers of the respective chain, secure and battle tested.
 
-We are deliberately a straigth-forward fork of PancakeSwap when it comes to the contracts that our DEX uses. The reason is that we wanted to use secure, battle tested code for the functions of the DEX. That is why our factory, router and PUNK token contracts are 1:1 copies of the corresponding PancakeSwap contracts just with variable names changed. This makes it easy to compare our contracts to the originals and to see that we did not add any malicious code.
+We are deliberately a straigth-forward fork of PancakeSwap when it comes to the contracts that our DEX uses. The reason is that we want to use secure, battle tested code for the functions of the DEX. That is why our factory, router and PUNK token contracts are 1:1 copies of the corresponding PancakeSwap contracts just with variable names changed. This makes it easy to compare our contracts to the originals and to see that we did not add any malicious code.
 
 The multicall is only used to read data from the blockchain more efficiently and it is a straight-up 1:1 copy of the template.
 
